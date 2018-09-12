@@ -1,3 +1,28 @@
+h1 {
+    border: 10px solid transparent;
+    padding: 15px;
+ border-image: url("orange\ border.png") 30 round;
+}
+
 body {
-   background-image: url("https://cdn-images-1.medium.com/max/1600/0*vl9iVBmCTB65lcTJ.");
+    background-image: url("movingline.jpeg");
+}
+
+p {
+    color: red ;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: Block;
+    animation-duration: 60s;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
