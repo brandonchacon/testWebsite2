@@ -1,0 +1,114 @@
+html {
+    background-image: url("hdGalaxy.jpg");
+    height: 400%;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+}
+
+h1{
+    color:aquamarine;
+    width: 600px;
+    height: 50px;
+    position: relative;
+    animation-name: animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation {
+    0%   { left:50px; top:0px;}
+    100% { left:550px; top:0px;}
+}
+
+/*@keyframes animation {
+    0%   { left:50px; top:0px;}
+    25%  { left:400px; top:0px;}
+    50%  { left:650px; top:0px;}
+    75%  { left:900px; top:0px;}
+    100% { left:50px; top:0px;}
+}*/
+
+h2{
+    color:aquamarine;
+    animation-name: transform;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+.h2{
+    color:aquamarine;
+    animation-name: movement;
+    animation-delay: 0s;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement {
+    0% { left:250px; top:0px;color: white;}
+    100% { left:600px; top:0px;color: black;}
+}
+
+@keyframes transform {
+    0%   {/*transform: rotate(0deg);*/color: white;}
+    20%  {/*transform: rotate(10deg);*/color: black;}
+    40%  {/*transform: rotate(0deg);*/color:white;}
+    60%  {/*transform: rotate(10deg);*/color:black;}
+    80%  {/*transform: rotate(0deg);*/color: white;}
+    100% {/*transform: rotate(10deg);*/color: black;}
+}
+
+p {
+    color:aquamarine;
+    border: 10px solid transparent;
+    padding: 1px;
+    border-image: url("orange\ border.png") 30 round;
+}
+
+ol {
+color:aquamarine;
+animation-name: example;
+animation-delay: 0s;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+/*@keyframes example {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(180deg);}
+    50%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}*/
+
+/*body {    
+background-image: url("movingline.jpeg");
+height: 200%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}*/
+
+.li {
+    color: yellowgreen;
+    animation-name: flip;
+    position: relative;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flip {
+  0%   {/*transform: rotateX(150deg);*/color: red;}
+  25%  {/*transform: rotatey(150deg);*/color: orange;}
+  50%  {/*transform: rotateX(150deg);*/color: yellow;}
+  75%  {/*transform: rotatey(150deg);*/color: green;}
+ 100%  {/*transform: rotateX(150deg);*/color: blue;}
+}
+
+h3 {
+ background-color: lightblue; 
+}
