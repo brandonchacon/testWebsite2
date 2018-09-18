@@ -20,7 +20,8 @@ h1{
 
 @keyframes animation {
     0%   { left:50px; top:0px;}
-    100% { left:550px; top:0px;}
+    50%  { left:550px;top:0px;}
+    100% { left:50px; top:0px;}
 }
 
 /*@keyframes animation {
