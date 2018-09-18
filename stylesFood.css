@@ -52,7 +52,8 @@ h2{
 
 @keyframes movement {
     0% { left:250px; top:0px;color: white;}
-    100% { left:600px; top:0px;color: black;}
+    50% {left:600px; top:0px;color: black;}
+    100% { left:250px; top:0px;color: white;}
 }
 
 @keyframes transform {
