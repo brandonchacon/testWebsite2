@@ -45,7 +45,7 @@ h2{
     color:aquamarine;
     animation-name: movement;
     animation-delay: 0s;
-    animation-duration: 8s;
+    animation-duration: 16s;
     position: relative;
     animation-iteration-count: infinite;
 }
